@@ -1,0 +1,85 @@
+.body-index{ 
+    background: #ea9a97; 
+    display: flex; 
+    flex-direction: column; 
+    width: 100vw; 
+    height: 100vh;
+    margin: 0; 
+}
+
+.body-note{
+    background: #ea9a97; 
+    display: flex; 
+    flex-direction: row; 
+    width: 100vw; 
+    height: 100vh;
+    margin: 0; 
+}
+
+h1 {
+    font-family: 'Domine', serif;
+    text-align: center;   
+    color: #2a283e; 
+    text-align: center; 
+}
+
+p, li, button {
+    font-family: 'Domine', serif;
+    font-size: 15px; 
+    text-align: center; 
+    color: #2a283e;
+}
+
+.topnav ul {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: flex-end;
+}
+
+.sidenav ul {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    height: 100vh;
+    padding-left: 75px; 
+}
+
+.topnav li, .sidenav li {
+    list-style-type: none;
+    flex-basis: 8%; 
+    text-align: center;
+}
+
+.topnav a, .sidenav a {
+    text-decoration: none; 
+    color: #2a283e;
+}
+
+.topnav a:hover, .sidenav a:hover {
+    color: #9ccfd8;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content: flex-start;
+    overflow: hidden; 
+    width: 100%;
+    height: 100%;
+}
+
+.middle {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+
+.footer {
+    margin-top:auto;
+    min-height: 50px;  
+}
