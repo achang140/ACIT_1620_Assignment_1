@@ -30,6 +30,15 @@ p, li, button {
     color: #2a283e;
 }
 
+.sidenav {
+    background-color: #eb6f92;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    width: 250px; 
+    height: 100vh;
+}
+
 .topnav ul {
     display: flex; 
     flex-direction: row; 
@@ -101,6 +110,37 @@ p, li, button {
 
 .btn:hover, #plus-btn:hover, #save-btn:hover, #del-btn:hover, #arrow-btn:hover, #arrow-two-btn:hover {
     background-color: #9ccfd8; 
+}
+
+.btn-textarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    padding-right: 100px; 
+}
+
+.save-del-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-top: 10px; 
+    padding-left: 180px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    border-color: #eb6f92;
+    border-width: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px; 
+    margin-left: 15px;
+    resize: none; 
 }
 
 .main-container {
