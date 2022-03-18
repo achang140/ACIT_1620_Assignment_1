@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet">
+    <title>Amanda's Note App</title>
+</head>
+<body class="body-note">
+    <nav class="sidenav">
+        <button type="button" id="arrow-two-btn"><i class="fa fa-angle-double-left"></i></button>
+        <h1>my notes</h1>
+        <ul>
+            <li><a href="#">note 1</a></li>
+            <li><a href="#">note 2</a></li>
+        </ul>
+    </nav>
+    <!-- main-container contains Top Nav, Btns, Textarea, and Footer -->
+    <main class="main-container">
+        <nav class="topnav">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Docs</a></li>
+            </ul>
+        </nav>
+        <!-- middle container for btn-textarea and save-del-btns to be in the center -->
+        <article class="middle">
+            <!-- btn-textarea container for plus-btn to be placed beside the textarea-->
+            <section class="btn-textarea">
+                <button type="button" id="plus-btn"><i class="fa fa-plus" id="fa"></i></button>
+                <textarea rows="5" cols="50" placeholder="Enter notes here..."></textarea>
+            </section>
+            <!-- save-del-btns container for Save & Delete btns to be in a row beside each other -->
+            <div class="save-del-btns">
+                <button type="button" id="save-btn">Save</button>
+                <button type="button" id="del-btn">Delete</button>
+            </div>
+        </article>
+        <footer class="footer">
+            <p>created by Amanda Chang</p>
+        </footer>
+    </main>
+</body>
+</html>
