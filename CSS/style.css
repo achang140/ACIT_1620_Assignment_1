@@ -165,3 +165,107 @@ textarea {
     margin-top:auto;
     min-height: 50px;  
 }
+
+@media screen and (max-width: 480px) {
+    .body-index, .body-note {
+        background-color: #eb6f92;
+    }
+
+    h1 {
+        font-size: 12px;
+    }
+    
+    p, li {
+        font-size: 10px;
+    }
+    
+    .btn {
+        font-size: 13px;
+        background-color: #9ccfd8; 
+    }
+
+    #arrow-btn {
+        font-size: 20px;
+        background-color: #9ccfd8;
+    }
+
+    #arrow-two-btn, #save-btn, #del-btn {
+        font-size: 13px; 
+        background-color: #ea9a97;
+    }
+
+    #plus-btn {
+        background-color: #ea9a97;
+    }
+
+    #arrow-two-btn:hover {
+        background-color: #eb6f92;
+    }
+
+    .btn:hover, #arrow-btn:hover {
+        background-color: #ea9a97;
+    }
+    
+    .topnav ul {
+        display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: flex-end;
+        padding-right: 10px; 
+    }
+
+    .topnav li {
+        flex-basis: 15%
+    }
+
+    .topnav a:hover, .sidenav a:hover {
+        font-size: 15px;
+        font-weight: 500;
+        color: #2a283e;
+    }
+
+    .sidenav {
+        background-color: #ea9a97;
+        width: 80px; 
+        height: 100vh;
+    }
+
+    .sidenav ul {
+        padding-left: 20px;
+    }
+
+    .sidenav li {
+        flex-basis: 5%;
+    }
+
+    .btn-textarea {
+        flex-direction: column;
+        padding-left: 95px;
+    }
+
+    .save-del-btns {
+        width: 50%;
+        padding-right: 150px
+    }
+
+    textarea {
+        width: 300px;
+        height: 150px;
+        border-color: #2a283e;
+        border-width: 3px;
+    }
+
+    .middle {
+        justify-content: flex-start; 
+        padding-top: 80px;
+    }
+
+    .footer {
+        margin-top:auto;
+        min-height: 0px; 
+        display: flex;
+        flex-direction: row; 
+        justify-content: flex-end; 
+        padding-right: 10px;  
+    }
+}
