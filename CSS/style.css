@@ -61,6 +61,48 @@ p, li, button {
     color: #9ccfd8;
 }
 
+.button {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+
+#arrow-btn {
+    background-color: #eb6f92; 
+    color: #2a283e; 
+    font-size: 30px;
+    border-color: #2a283e; 
+}
+
+.btn, #side-btn, #arrow-two-btn {
+    background-color: #eb6f92; 
+    color: #2a283e; 
+    font-size: 20px;
+    border-color: #2a283e;  
+}
+
+#plus-btn {
+    background-color: #eb6f92;
+    color: #2a283e;
+    font-size: 20px;
+    border-color: #2a283e;
+    height: 35px;
+    width: auto; 
+}
+
+#save-btn, #del-btn {
+    background-color: #eb6f92;
+    color: #2a283e;
+    font-size: 15px; 
+    border-color: #2a283e; 
+}
+
+.btn:hover, #plus-btn:hover, #save-btn:hover, #del-btn:hover, #arrow-btn:hover, #arrow-two-btn:hover {
+    background-color: #9ccfd8; 
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
