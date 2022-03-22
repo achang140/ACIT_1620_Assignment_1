@@ -132,7 +132,7 @@ p, li, button {
 textarea {
     width: 400px;
     height: 200px;
-    border-color: #eb6f92;
+    border-color: #2a283e;
     border-width: 3px;
     display: flex;
     flex-direction: row;
@@ -141,6 +141,9 @@ textarea {
     margin-top: 10px; 
     margin-left: 15px;
     resize: none; 
+    background-color: #eb6f92; 
+    color: #2a283e; 
+    font-family: 'Domine', serif;
 }
 
 .main-container {
@@ -253,6 +256,7 @@ textarea {
         height: 150px;
         border-color: #2a283e;
         border-width: 3px;
+        background-color: #ea9a97
     }
 
     .middle {
