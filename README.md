@@ -1,7 +1,10 @@
-# ACIT1620_Assingment1 (Note taking app) - Amanda Chang (A01294905)
+# ACIT1620_Assingment1 
+## Amanda Chang A01294905 - Set C 
+
+### Note Taking App 
 The goal of the assignment is to create a note taking app with 2 html files (index.html & note.html) that link to a CSS file (style.css). The colours were chosen from Rose Pine website. In both html files, 4 colours used and a Google font (Domine) is added. A media query (max-width: 480) is created for responsive development, mainly targeting mobile screen sizes. 
 
-## Link to my color pallete 
+### Link to my color pallete 
 
 [my color palette]
 
