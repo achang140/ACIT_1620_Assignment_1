@@ -11,23 +11,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet">
     <title>Amanda's Note App</title>
 </head>
-<body class="body-index">
-    <header>
-        <nav class="topnav">
+<body>
+    <nav class="sidebtn">
+        <button type="button" id="arrow-btn"><i class="fa fa-angle-double-right"></i></button>
+    </nav>
+    <main class="main-container">
+        <header class="topnav">
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Docs</a></li>
             </ul>
-        </nav>
-    </header>
-    <div>
-        <button type="button" id="arrow-btn"><i class="fa fa-angle-double-right"></i></button>
-    </div>
-    <div class="button">
-        <button type="button" class="btn"><i class="fa fa-plus"></i> create a new note</button>
-    </div>
-    <footer class="footer">
-        <p>created by Amanda Chang</p>
-    </footer>
+        </header>
+        <article class="middle">
+            <section class="button">
+                <button type="button" class="btn"><i class="fa fa-plus"></i> create a new note</button>
+            </section>
+        </article>
+        <footer class="footer">
+            <p>created by Amanda Chang</p>
+        </footer>
+    </main>
 </body>
 </html>
