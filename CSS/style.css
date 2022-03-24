@@ -1,13 +1,4 @@
-.body-index{ 
-    background: #ea9a97; 
-    display: flex; 
-    flex-direction: column; 
-    width: 100vw; 
-    height: 100vh;
-    margin: 0; 
-}
-
-.body-note{
+body{ 
     background: #ea9a97; 
     display: flex; 
     flex-direction: row; 
@@ -70,12 +61,20 @@ p, li, button {
     color: #9ccfd8;
 }
 
+.sidebtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
 .button {
     display: flex;
     flex-direction: row; 
     justify-content: center;
     align-items: center;
-    height: 50vh; 
+    padding-bottom: 50px; 
+    height: 50vh;
 }
 
 #arrow-btn {
@@ -170,7 +169,7 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
-    .body-index, .body-note {
+    body {
         background-color: #eb6f92;
     }
 
@@ -265,7 +264,6 @@ textarea {
     }
 
     .footer {
-        margin-top:auto;
         min-height: 0px; 
         display: flex;
         flex-direction: row; 
